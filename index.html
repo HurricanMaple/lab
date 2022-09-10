@@ -34,8 +34,8 @@
             <div id="victor-output"></div>
         </div>
         <div class="welcome">
-            <p>— 欢迎来到 —</p>
-            <img class="web-title" src="./htmlimg/web_title.png" alt="" draggable="false">
+            <p>— 飓枫的引导页 —</p>
+            <img class="web-title" src="" alt="实验室" draggable="false">
         </div>
         <a class="scroll-down-tips"
             onclick="$('html, body').animate({scrollTop: $('.header').height()}, '500');return false;">
@@ -571,12 +571,12 @@
             let timerInterval
             Swal.fire({
                 icon: 'info',
-                title: '维护通知',
-                text: '本站维护更新中，敬请期待',
+                title: '欢迎',
+                text: '欢迎来到我的网站',
                 html:
-                    '本站维护更新中，敬请期待<br><br>' +
-                    '本窗口将在 <b></b> 毫秒后关闭',
-                timer: 4000,
+                    'Welcome 欢迎<br><br>' +
+                    '本窗口将在 <b></b> 毫秒后自动关闭',
+                timer: 1000,
                 timerProgressBar: true,
                 didOpen: () => {
                     Swal.showLoading()
